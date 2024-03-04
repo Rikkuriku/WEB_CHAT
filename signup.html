@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+  </head>
+
+<body>
+    <div class="signupbox">
+      <img src="user_icon.png" class="logo">
+      <h1>ようこそ</h1>
+      <h2>システムを利用するためにアカウントを作成してください</h2>
+      <form action="signup.html" method="get">
+        <p>ユーザーネーム</p>
+        <input type="text" name="" placeholder="ユーザーネーム入力" required>
+        <p>パスワード</p>
+        <input type="text" name="" placeholder="パスワード入力" required>
+        <p>フルネーム</p>
+        <input type="text" name="" placeholder="フルネーム入力" required></br>
+        <div class="centered-buttons">
+          <input type="submit"  onclick="history.back()" value="戻る" />
+          <input type="submit"  onclick="location.href='./login.html'" value="登録" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("back.jpg");
+  font-family: sans-serif;
+}
+
+.loginbox{
+  width: 320px;
+  height: 420px;
+  background: white;
+  color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  opacity: 0.85;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 110px;
+}
+
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+
+.loginbox a{
+  text-emphasis: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: black;
+}
+
+.loginbox a:hover{
+  color: blue;
+}
+
+.btn {
+  display: block; 
+  margin: 10px auto; 
+}
+
+#login_form {
+  text-align: center;
+}
+
+#maintitle {
+  text-align: left;
+  margin-right: 100px;
+}
+
+#title1 {
+  text-align: left;
+  margin-left: 10px;
+  /* background-color: red;  */
+}
+
+#singin_form {
+  padding: 0px 0;
+  /* background-color: #F7F7F7; */
+  /* background-color: #3f893b; */
+  margin: 10px 0;
+}
+
+input {
+  width: 200px;
+  padding: 3px;
+  margin: 5px 0;
+}
+
+#user_info {
+  /* display: flex; */
+  text-align: right;
+  margin-right: 0;
+  /* background-color: rgb(118, 61, 61);  */
+}
+
+#main {
+  text-align: center;
+  /* background-color: rgb(74, 173, 152);  */
+}
+
+#message_area {
+  background-color: white; 
+  text-align: left;
+  margin: 0 auto;
+  width: 100%; 
+  max-width: 867px;                
+  height: 100%;  
+  max-height: 575px;             
+ 
+  overflow-y: scroll;          /* 縦方向にスクロール可能にする */
+  padding: 8px;
+}
+#messages {
+  margin-top: 0px;
+}
+
+.mw {
+  display: flex;
+  height: 25px;
+  margin-bottom: 5px;
+  
+}
+
+/*--hover--*/
+input[type="submit"]:hover {
+  color: #5c87a6;
+  background-color: #ffffff;
+  border: 1px solid #5c87a6;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 1s;
+}

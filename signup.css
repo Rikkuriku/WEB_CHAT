@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("back.jpg");
+    font-family: sans-serif;
+  }
+  
+  .signupbox{
+    width: 320px;
+    height: 550px;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    opacity: 0.85;
+  }
+  
+  .logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 110px;
+  }
+  
+  h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 18px;
+  }  
+  
+  .signupbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .signupbox input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .signupbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .signupbox a{
+    text-emphasis: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+  }
+  
+  .signupbox a:hover{
+    color: blue;
+  }
+  
+  .btn {
+    display: block; 
+    margin: 10px auto; 
+  }
+
+  .centered-buttons {
+    text-align: center;
+  }
+
+  .centered-buttons button {
+    margin: 10px; /* ボタン間のスペースを設定 */
+  }
+
+  input[type="submit"] {
+    width: 20%;
+      font-size: 15px;
+      color: #fff;
+    display: inline-block;
+      padding: 5px 0px;
+      text-align: center;
+    background-color: #5c87a6;
+      border: 1px solid #5c87a6;
+      border-radius: 10px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 1s;
+  }
+  
+  /*--hover--*/
+  input[type="submit"]:hover {
+      color: #5c87a6;
+      background-color: #ffffff;
+      border: 1px solid #5c87a6;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 1s;
+  }

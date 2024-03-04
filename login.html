@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <div class="loginbox" id="singin_form">
+    <img src="user_icon.png" class="logo">
+    <h1>ログイン</h1>
+    <div >
+      <p>ユーザーネーム
+      <input type="text" name="" id="username" placeholder="名前入力" required></p>
+      <p>パスワード
+      <input type="password" name="" id="password" placeholder="パスワード入力" required></p>
+      <button class="btn" id="signin">ログイン</button>
+      <a href="signup.html" >初めての方</a>
+    </div>
+  </div>
+  <div id="user_info">
+    <div id="header">
+      <h1 id="maintitle">メイン</h1>
+      <div id="usin">
+        <p><span id="user">ユーザ名</span>
+          <button id="signout">ログアウト</button>
+        </p>
+      </div>
+    </div>
+  </div> 
+    <div id="main">
+      <p> room名 <input type="text" id="room_name" /> <button id="reload_messages">更新</button></p>
+      <h2>メッセージ表示画面</h2>
+      <div id="message_area">
+        <p id="messages">なし</p>
+      </div>
+      <p> メッセージを投稿 <input type="text" id="message" /><button id="post_message">post</button></p>
+      <p> メッセージを変更 メッセージID<input type="text" id="update_message_id" /> テキスト<input type="text"
+          id="updated_message" /><button id="update_message">update</button></p>
+      <p> メッセージを削除 メッセージID<input type="text" id="delete_message_id" /><button id="delete_message">delete</button></p>
+      <p> 全メッセージを削除 <button id="delete_all_messages">delete</button></p>
+      <p> サーバーからのメッセージ : <span id="server_message">なし</span></p>
+
+      
+      
+    </div>
+  <script src="https://rawgit.com/leizongmin/js-xss/master/dist/xss.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="module" src="main.js"></script>  	
+
+
+</body>
+
+</html>
